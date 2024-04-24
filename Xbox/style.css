@@ -2,8 +2,7 @@
     font-family: xbox;
     src: url(X360.ttf);
 }
-header
-{
+header{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -46,6 +45,7 @@ header
 .paginas:hover::before{
     transform: scaleX(1);
 }
+
 .menu a
 {
     color: white;
@@ -124,20 +124,13 @@ article
 footer{
     display: flex;
     position: relative;
-    background-image: url(fundoFooterTemporário.jpg);
+    background-image: url(footerlegal2.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 110px;
     bottom: 0;
     left: 0;
-}
-.texto
-{
-    border-radius: 90px;
-    text-align: center;
-    justify-content: center;
-    background-color: rgb(164, 245, 188);
 }
 .logofooter{
     width: 175px;
