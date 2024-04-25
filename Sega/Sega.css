@@ -185,7 +185,7 @@ footer{
     display: flex;
     flex-direction: row;
     height: 220px;
-    background-image: url(../Sega/imgfooter2.png);
+    background-image: url(./footersega2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
