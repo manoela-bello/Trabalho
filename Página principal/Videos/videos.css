@@ -105,12 +105,12 @@ iframe{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 20px;
     margin-top: 20px;
-    margin-left: 43%;
     border-style: groove;
     border-color: #2180A6;
 }
 .linha{
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 .texto11{
     margin-bottom: 20%;
