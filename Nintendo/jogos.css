@@ -1,0 +1,308 @@
+@font-face {
+    font-family: pixel;
+    src: url(Commodore\ Pixelized\ v1.2.ttf);
+  }
+
+
+@font-face {
+    font-family:nintendo;
+    src: url(Pretendo.ttf);
+}
+
+
+@font-face {
+    font-family:mario;
+    src: url(SuperMario256.ttf);
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url(mario\ fundo.png);
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.logo{
+    width: 175px;
+    height: 80px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+}
+.menu{
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paginas{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    position: relative;
+}
+.paginas::before
+{
+    content:" ";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background-color:aliceblue;
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform.3s ease-in-out;
+}
+
+.paginas:hover::before{
+    transform: scaleX(1);
+}
+h1{
+    color: aliceblue;
+    font-family:nintendo;
+    text-align: center;
+    text-shadow: 0 0 10px #8d0e8ddf, 0 0 20px #674d68, 0 0 30px #773b71, 0 0 40px #ab1ebd, 0 0 70px #6b0378, 0 0 80px #6b0378, 0 0 100px #6b0378, 0 0 50px #7f2a8ada;
+    font-size: 50px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 220px;
+    background-image: url(footermario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logofooter{
+    width: 175px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.containertext{
+    margin-top: 20px;
+    margin-left: 65%;
+    width: 350px;
+    height: 130px;
+
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 3px;
+}
+
+h4{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: fit-content;
+}
+h5{
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: fit-content;
+}
+.a{
+    width: 230px;
+    height: 25px;
+    border: 2px;
+    border-radius: 10px;
+}
+.b{
+    width: 30px;
+    height: 25px;
+    border: 2px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mariologo{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.textomario{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mariofoto{
+    position: fixed;
+    top: 0;
+    right: 0;
+    max-width: 200px;
+    max-height: 200px;
+   
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mario-image {
+    width: 150px; 
+    height: 290px;
+}
+
+.mario-text {
+    width: calc(100% - 220px); 
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+p{
+    text-align:left;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #3c1352c1;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px;
+}
+.conjunto1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.foto1{
+    width: 320px;
+    height: 380px;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+
+.conjunto2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.foto2{
+    width: 400px;
+    height: 320px;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+.conjunto3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.foto3{
+    width: 400px;
+    height: 320px;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+.conjunto4{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.foto4{
+    width: 320px;
+    height: 400px;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+.bola1, .bola2, .bola3, .bola4{
+    width: 120px;
+    height: 120px;
+    border: 5px solid ;
+    border-color:  #4a5bb8;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.bola1{
+    margin-left: 33%;
+    margin-right: 15px;
+
+    
+}
+.bola2{
+    margin-right: 15px;
+}
+.bola3{
+    margin-right: 15px;
+}
+.text1, .text2, .text3, .text4{
+    display: inline;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.text1{
+    margin-left: 35%;
+    margin-right: 3.5%;
+}
+.text2{
+    margin-right: 2.5%;
+}
+.text3{
+    margin-right: 2.5%;
+}
+
+.text4{
+    margin-left: 2.5%;
+}
+.conjunto5{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.conjunto6{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.foto6{
+    width: 380px;
+    height: 420px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.personagens{
+    font-family: mario;
+    color: white;
+    text-align: center;
+}
+
