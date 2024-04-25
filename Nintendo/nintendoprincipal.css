@@ -1,6 +1,6 @@
 @font-face {
     font-family: pixel;
-    src: url(Commodore\ Pixelized\ v1.2.ttf);
+    src: url(../Nintendo/Commodore\ Pixelized\ v1.2.ttf);
   }
   * {
     margin: 0;
@@ -10,16 +10,16 @@
 
 @font-face {
     font-family: nitendo;
-    src: url(Pretendo.ttf)
+    src: url(../Nintendo/Pretendo.ttf)
 }
 
 @font-face {
     font-family: pacman;
-    src: url(PAC-FONT.TTF)
+    src: url(../Nintendo/PAC-FONT.TTF)
 }
 
 body{
-    background-image: url(background.png);
+    background-image: url(../Nintendo/background.png);
     background-size: cover;
 }
 header{
@@ -76,7 +76,7 @@ footer{
     display: flex;
     flex-direction: row;
     height: 220px;
-    background-image: url(Design\ sem\ nome.png);
+    background-image: url(../Nintendo/Design\ sem\ nome.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

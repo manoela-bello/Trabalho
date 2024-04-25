@@ -1,18 +1,18 @@
 @font-face {
     font-family: pixel;
-    src: url(Commodore\ Pixelized\ v1.2.ttf);
+    src: url(../Nintendo/Commodore\ Pixelized\ v1.2.ttf);
   }
 
 
 @font-face {
     font-family:nintendo;
-    src: url(Pretendo.ttf);
+    src: url(../Nintendo/Pretendo.ttf);
 }
 
 
 @font-face {
     font-family:mario;
-    src: url(SuperMario256.ttf);
+    src: url(../Nintendo/SuperMario256.ttf);
 }
 
   * {
@@ -22,7 +22,7 @@
 }
 body{
     
-    background-image: url(mario\ fundo.png);
+    background-image: url(../Nintendo/mario\ fundo.png);
     background-size: cover;
 }
 header{
@@ -83,7 +83,7 @@ footer{
     display: flex;
     flex-direction: row;
     height: 220px;
-    background-image: url(footermario.png);
+    background-image: url(../Nintendo/footermario.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

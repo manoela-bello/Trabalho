@@ -1,23 +1,23 @@
 @font-face {
     font-family: pixel;
-    src: url(Commodore\ Pixelized\ v1.2.ttf);
+    src: url(../Nintendo/Commodore\ Pixelized\ v1.2.ttf);
   }
 
 
 @font-face {
     font-family:nintendo;
-    src: url(Pretendo.ttf);
+    src: url(../Nintendo/Pretendo.ttf);
 }
 
 
 @font-face {
     font-family:mario;
-    src: url(SuperMario256.ttf);
+    src: url(../Nintendo/SuperMario256.ttf);
 }
 
 @font-face {
     font-family:zelda;
-    src: url(Triforce.ttf);
+    src: url(../Nintendo/Triforce.ttf);
 }
 
   * {
@@ -27,7 +27,7 @@
 }
 body{
     
-    background-image: url(zeldabackground.png);
+    background-image: url(../Nintendo/zeldabackground.png);
     background-size: cover;
 }
 header{
@@ -88,7 +88,7 @@ footer{
     display: flex;
     flex-direction: row;
     height: 220px;
-    background-image: url(footerZELDA.png);
+    background-image: url(../Nintendo/footerZELDA.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
