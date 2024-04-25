@@ -1,6 +1,6 @@
 @font-face {
     font-family: pixel;
-    src: url(Commodore\ Pixelized\ v1.2.ttf);
+    src: url(../Sega/Commodore\ Pixelized\ v1.2.ttf);
   }
 * {
     margin: 0;
@@ -139,7 +139,7 @@ border-radius: 5px;
 margin-top: 40px;
 }
 .bola1{
-    margin-left: 5%;
+    margin-left: 12%;
     margin-right: 15px;
 }
 .bola2,.bola3,.bola4,.bola5,.bola6,.bola7{
@@ -153,7 +153,7 @@ margin-top: 40px;
     font-size: 18px;
 }
 .text1{
-    margin-left: 6%;
+    margin-left: 12%;
     margin-right: 3%;
 }
 .text2{
@@ -185,7 +185,7 @@ footer{
     display: flex;
     flex-direction: row;
     height: 220px;
-    background-image: url(footersega2.png);
+    background-image: url(../Sega/imgfooter2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
