@@ -1,0 +1,254 @@
+@font-face {
+    font-family: pixel;
+    src: url(../Nintendo/Commodore\ Pixelized\ v1.2.ttf);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: nitendo;
+    src: url(../Nintendo/Pretendo.ttf)
+}
+
+@font-face {
+    font-family: pacman;
+    src: url(../Nintendo/PAC-FONT.TTF)
+}
+
+body{
+    background-image: url(../Nintendo/background.png);
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.logo{
+    width: 175px;
+    height: 80px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+}
+.menu{
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paginas{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    position: relative;
+}
+.paginas::before{
+    content:" ";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background-color:aliceblue;
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform.3s ease-in-out;
+}
+.paginas:hover::before{
+    transform: scaleX(1);
+}
+h1{
+    color: aliceblue;
+    font-family: nitendo;
+    text-align: center;
+    text-shadow: 0 0 10px #03025edf, 0 0 20px #03025edf, 0 0 30px #2a00c4c2, 0 0 40px #03025edf, 0 0 70px #2c04dd, 0 0 80px #0715da, 0 0 100px #03025edf, 0 0 50px #0215c0da;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 220px;
+    background-image: url(../Nintendo/Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logofooter{
+    width: 175px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.containertext{
+    margin-top: 20px;
+    margin-left: 65%;
+    width: 350px;
+    height: 130px;
+
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 3px;
+}
+
+h4{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: fit-content;
+}
+h5{
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: fit-content;
+}
+.a{
+    width: 230px;
+    height: 25px;
+    border: 2px;
+    border-radius: 10px;
+}
+.b{
+    width: 30px;
+    height: 25px;
+    border: 2px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flip-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+
+  .flipper{
+    position: relative;
+	width: 100%;
+	height: 100%;
+    transition: transform 0.6s;
+	transform-style: preserve-3d;
+}
+
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+}
+
+.front, .back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}
+
+
+.back{
+	transform: rotateY(180deg);
+}
+
+aside{
+    margin: auto;
+    padding-left: 200px;
+    
+}
+
+.conjunto1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conjunto2{
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 1px;
+}
+
+.imgteste{
+    border-radius: 20px;
+}
+
+
+.NINTENDOLOGO{
+    width: 10px;
+    height: 250px;
+    border-radius: 5px;
+    margin-right: 550px;
+   }
+
+
+.texto1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+   
+}
+
+.conjuntoinicial{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.logonintendo{
+    width: 380px;
+    height: 160px;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+.mariosite{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    position: relative;
+}
+
+.zeldasite{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    position: relative;
+}
+
+.sites{
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.interesse{
+    text-align: center;
+}
