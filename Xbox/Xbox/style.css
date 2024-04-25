@@ -1,6 +1,6 @@
 @font-face {
     font-family: xbox;
-    src: url(X360.ttf);
+    src: url(../Xbox/X360.ttf);
 }
 header
 {
@@ -125,7 +125,7 @@ article
 footer{
     display: flex;
     position: relative;
-    background-image: url(footerlegal2.webp);
+    background-image: url(../Xbox/footerlegal2.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
